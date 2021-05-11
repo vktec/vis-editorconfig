@@ -116,6 +116,10 @@ OPTIONS = {
     vis_set("tabwidth", value)
   end,
 
+  spell_llanguage = function (value)
+    vis_set("spelllang", value)
+  end,
+
   insert_final_newline = function (value)
     -- According to the editorconfig specification, insert_final_newline
     -- false is supposed to mean stripping the final newline, if present.
